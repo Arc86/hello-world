@@ -9,8 +9,10 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Arc86/hello-world.git'
+                git credentialsId: 'Github', branch: 'main', url: 'https://github.com/Arc86/hello-world.git'
             }
+        }    
+
         }
 
         stage('Build Docker Image') {
