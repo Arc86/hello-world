@@ -23,6 +23,7 @@ pipeline {
 
         stage('Push to Docker Hub') {
             steps {
+                snDevOpsChange()
                 script {
                     docker.withRegistry('https://index.docker.io/v1/', "${env.DOCKER_CREDENTIALS_ID}") {
                         dockerImage.push()
