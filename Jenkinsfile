@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Arc86/hello-world.git'
+                git branch: 'main', url: 'https://github.com/Arc86/hello-world.git'
             }
         }
 
