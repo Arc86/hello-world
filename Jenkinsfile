@@ -12,7 +12,7 @@ pipeline {
                 git credentialsId: 'Github' branch: 'main', url: 'https://github.com/Arc86/hello-world.git'
             }
         }
-
+    }
         stage('Build Docker Image') {
             steps {
                 script {
