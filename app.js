@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
             <title>Hello World</title>
         </head>
         <body>
-            <h1>Hello World beautiful world!</h1>
+            <h1>Hello World!</h1>
             <img src="/hello-world.png" alt="Hello World Image" />
         </body>
         </html>
