@@ -120,7 +120,7 @@ app.get('/', (req, res) => {
             <h2>Our Coffee Menu</h2>
             <div class="menu-grid">
                 <div class="menu-item">
-                    <img src="/_43ec8d67-394f-4d22-8695-8725e564c7e3.jpg" alt="Espresso">
+                    <img src="/43ec8d67-394f-4d22-8695-8725e564c7e3.jpg" alt="Espresso">
                     <div class="menu-item-content">
                         <h3>Classic Espresso</h3>
                         <p>Rich and intense shot of pure coffee goodness</p>
