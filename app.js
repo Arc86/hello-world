@@ -46,7 +46,7 @@ app.get('/', (req, res) => {
             text-decoration: none;
         }
         main {
-            max-width: 800px;
+            max-width: 1000px;
             margin: 2rem auto;
             padding: 0 1rem;
         }
@@ -62,14 +62,38 @@ app.get('/', (req, res) => {
             text-decoration: none;
             border-radius: 5px;
         }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+        .menu-item {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .menu-item-content {
+            padding: 1rem;
+        }
+        .menu-item h3 {
+            margin: 0 0 0.5rem;
+        }
+        .menu-item p {
+            margin: 0;
+            color: #666;
+        }
         footer {
             background-color: #3c2f2f;
             color: #fff;
             text-align: center;
             padding: 1rem;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            margin-top: 2rem;
         }
     </style>
 </head>
@@ -90,6 +114,40 @@ app.get('/', (req, res) => {
             <h2>Welcome to Brew Haven</h2>
             <p>Discover the perfect blend of flavor and ambiance</p>
             <a href="#menu" class="cta-button">View Our Menu</a>
+        </section>
+        
+        <section id="menu">
+            <h2>Our Coffee Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="https://example.com/espresso.jpg" alt="Espresso">
+                    <div class="menu-item-content">
+                        <h3>Classic Espresso</h3>
+                        <p>Rich and intense shot of pure coffee goodness</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://example.com/cappuccino.jpg" alt="Cappuccino">
+                    <div class="menu-item-content">
+                        <h3>Creamy Cappuccino</h3>
+                        <p>Espresso with steamed milk and a generous layer of foam</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://example.com/latte.jpg" alt="Latte">
+                    <div class="menu-item-content">
+                        <h3>Smooth Latte</h3>
+                        <p>Espresso with steamed milk and a light layer of foam</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://example.com/mocha.jpg" alt="Mocha">
+                    <div class="menu-item-content">
+                        <h3>Chocolate Mocha</h3>
+                        <p>Espresso with steamed milk, chocolate, and whipped cream</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
