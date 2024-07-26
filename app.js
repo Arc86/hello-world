@@ -120,28 +120,28 @@ app.get('/', (req, res) => {
             <h2>Our Coffee Menu</h2>
             <div class="menu-grid">
                 <div class="menu-item">
-                    <img src="https://example.com/espresso.jpg" alt="Espresso">
+                    <img src="/_43ec8d67-394f-4d22-8695-8725e564c7e3.jpg" alt="Espresso">
                     <div class="menu-item-content">
                         <h3>Classic Espresso</h3>
                         <p>Rich and intense shot of pure coffee goodness</p>
                     </div>
                 </div>
                 <div class="menu-item">
-                    <img src="https://example.com/cappuccino.jpg" alt="Cappuccino">
+                    <img src="/_adcec9ea-21cb-4015-84d8-7251b2f5c2ac.jpg" alt="Cappuccino">
                     <div class="menu-item-content">
                         <h3>Creamy Cappuccino</h3>
                         <p>Espresso with steamed milk and a generous layer of foam</p>
                     </div>
                 </div>
                 <div class="menu-item">
-                    <img src="https://example.com/latte.jpg" alt="Latte">
+                    <img src="/_78f96312-8e78-41d7-b507-92ac13eef3db.jpg" alt="Latte">
                     <div class="menu-item-content">
                         <h3>Smooth Latte</h3>
                         <p>Espresso with steamed milk and a light layer of foam</p>
                     </div>
                 </div>
                 <div class="menu-item">
-                    <img src="https://example.com/mocha.jpg" alt="Mocha">
+                    <img src="/_ef4b0193-edcd-4b14-90c7-e77686c39f5f.jpg" alt="Mocha">
                     <div class="menu-item-content">
                         <h3>Chocolate Mocha</h3>
                         <p>Espresso with steamed milk, chocolate, and whipped cream</p>
